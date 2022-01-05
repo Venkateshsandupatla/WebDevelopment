@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+</head>
+<body>
+    <h3>this is about Page</h3>
+    <!-- internal link -->
+    <a href="index.html">back to homepage</a>
+    <!-- sub and sup -->
+    <h1>hi this is <sup>1st</sup>venky <sub>in the town</sub></h1>
+    <!-- strong and em  -->
+    <!-- strong means it will bold our texts -->
+    <!-- em means it will slant our texts -->
+    <p>Lorem ipsum dolor sit <strong>amet consectetur adipisicing elit. Eos ipsum ipsa</strong>  accusamus quaerat consectetur, similique <em> officiis a in harum autem quos ea quod</em> odio ab, quidem repellendus natus, tempore mollitia?</p>
+    <br>
+    <br>
+    <h2>hi this is so and so symbol &copy; &notin;</h2>
+    
+    
+    
+    <!-- unorder list -->
+    <!-- we have to write a list in unorderd form -->
+    <!-- li means list items these are the items we writting in list -->
+    <h4>this is an unorderd list</h4>
+    <ul>  
+        <li>venky</li>
+        <li>abhi</li>
+        <li>sai tulasi</li>
+        <li>sahith</li>
+        <li>pruthvi</li>
+    </ul>
+    
+    <ul>
+        <li><a href="./index.html">back to homepage</a></li>
+        <li><a href="https://www.linkedin.com/in/venkatesh-sandupatla-8a53a71aa/" target="_blank">venkylinkedin</a></li>
+    </ul>
+    <!-- orderd list -->
+    <ol>
+        <li>saiki</li>
+        <li>ananth</li>
+        <li>bennu</li>
+    </ol>
+    <!-- nested list this means list inside a list -->
+    <ul>
+        <li>peter</li>
+        <li>sam
+            <ol>
+                <li>html</li>
+                <li>css</li>
+            </ol>
+        </li>
+        <li>ram
+            <ol>
+                <li>html</li>
+                <li>css</li>
+                <li>js</li>
+            </ol>
+        </li>
+        <li>jack</li>
+
+    </ul>
+    <br>
+    <!-- table  -->
+    <!-- to create a table we have table tag in html -->
+    <!-- for table heading th , for rows in table tr , for columns in table td -->
+    <table>
+        <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Sex</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>venky</td>
+            <td>21</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Abhi</td>
+            <td>24</td>
+            <td>Male</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <h3>Form</h3>
+    <!--  creating a form -->
+    <!-- label creates a name or heading tto the box or inout and we have to give the name of box in the label as shown below -->
+    <form action="" method="">
+        <!-- name inout -->
+        <label for="firstname">FirstName</label>
+        <input type="text" name="firstname" placeholder="enter your firstname">
+        <!-- placeholder is it shows what to write in the bpx -->
+        <!-- value will it should be in the box like ma@mail.com it will written in the box we have to erase it and write our maild -->
+        <br>
+        <br>
+        <!-- email input -->
+        <label for="emailid">EMAIL</label>
+        <input type="email" name="emaiid" value="abcd@gmail.com">
+        <br>
+        <br>
+        <!-- password input -->
+        <label for="password">password</label>
+        <input type="password" name="passsword" >
+        <br>
+        <br>
+
+        <!-- submit input -->
+        <!-- <input type="submit" value="submit here"> -->
+        <!-- <br> -->
+       
+        <!-- text area it provides a box space for user to write  -->
+        <h5>Decription</h5>
+        <textarea name="" id="" cols="10" rows="10"></textarea>
+        <br>
+
+        <!-- radio buttons -->
+        <!-- the name of all radio buttons should be same if not we can select multiple radio buttons at a time -->
+        <!-- here value = " ..."  will go to our backend-->
+        <p>Radio buttons</p>
+        <br>
+        <br>
+        <p>please select the language u are familiar!</p>
+        <input type="radio" name="coding" id="" value="python" checked>python
+        <!-- if we write checked that means  -->
+        <input type="radio" name="coding" id="" value="html">html
+        <input type="radio" name="coding" id="" value="css">css
+        <input type="radio" name="coding" id="" value="javascript">javascript
+
+        <!-- Check Boxes-->
+        <!-- with check boxes we can select multiple where as by radio boxes we can select only one -->
+        <p><b>check boxes</b> </p>
+        <br>
+        <p>please select the cloud technology</p>
+        <input type="checkbox" name="cloud" value="aws" >AWS
+
+        <input type="checkbox" name="cloud" id="" value="azure">Azure
+        <input type="checkbox" name="cloud" id="" value="gcp">Gcp
+
+        <br>
+        <br>
+        <!-- select tag -->
+        <!--  its same like radio we can select the option from our list -->
+        <h3>using select tag</h3>
+        <p><b>selct the programming language</b></p>
+        <select name="programming" id="">
+            <option value="java">java</option>
+            <option value="c++">c++</option>
+            <option value="ruby">ruby</option>
+            <option value="go">go</option>
+        </select>
+
+        <!-- submit button -->
+        <h4>this submit is by button</h4>
+        <button type="submit">submit here</button>
+        
+    </form>
+   
+</body>
+</html>
